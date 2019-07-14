@@ -1,0 +1,30 @@
+﻿
+
+alert("  adad aval ra vared konid")
+	var x = prompt()
+alert("  adad dovom ra vared konid")
+	var y = prompt()
+alert("  amalgar ra vared konid")
+	var z = prompt()
+	if(Number.isInteger(Number(x)) && Number.isInteger(Number(y))){
+		switch (z){
+               case '*': console.log("natige zarb barabar ast ba " +(Number(x)*Number(y)));
+               break;
+            
+               case '/': console.log("natige taghsim barabar ast ba " +(Number(x)/Number(y)));
+               break;
+            
+               case '+': console.log("natige tajmia barabar ast ba " +(Number(x)+Number(y)));
+               break;
+            
+               case '-': console.log("natige tafazol barabar ast ba " +(Number(x)-Number(y)));
+               break;
+       
+            
+               default:  console.log("shoma amalgar sahih vared nakardid")
+            }
+
+    }
+else{
+	alert(" you write invalid integer number")
+}
