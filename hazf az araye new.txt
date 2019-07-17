@@ -1,0 +1,23 @@
+﻿var arr=[]
+var arr2=[]
+var j = 0
+var m = 0 
+alert(" 10 adad vared konid")
+for (var i=0 ; i<10 ; i++){
+	var x = prompt()
+	arr.push(x)
+}
+console.log("araye shoma be sourat zir ast", arr)
+alert("ba che adadi yeki dar mioun hazf beshe?")
+var y = prompt()
+for (j=0 ; j<10 ; j++){
+	if((j%y)==0){
+		arr2[m] = arr.pop()
+		m++
+	}
+	else{
+		arr.pop()
+    }
+}
+arr.unshift(arr2);
+console.log("araye shoma baad az pop kardan be sourat zir ast" , arr)
